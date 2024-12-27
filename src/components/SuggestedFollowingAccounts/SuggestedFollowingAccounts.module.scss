@@ -1,0 +1,72 @@
+.wrapper {
+    border-top: 1px solid #e3e3e4;
+    padding: 20px 0;
+}
+
+.label {
+    padding: 8px;
+    color: var(--black-text);
+    opacity: 0.6;
+    font-size: 1.4rem;
+    font-weight: 600;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.account_item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.user_avatar {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.05px solid #ccc;
+}
+
+.account_info {
+    flex: 1;
+    margin-left: 16px;
+}
+
+.user_nick_name {
+    display: flex;
+    flex: 1;
+    align-items: center;
+
+    font-size: 1.6rem;
+    color: #161823;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.check_icon {
+    font-size: 1.2rem;
+    margin-left: 6px;
+    color: var(--round-check-blue-color);
+}
+
+.user_name {
+    font-size: 1.2rem;
+    color: #161823;
+    opacity: 0.7;
+}
+
+.user_nick_name,
+.user_name {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.see_all {
+    padding: 8px;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+}

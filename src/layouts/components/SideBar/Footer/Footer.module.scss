@@ -1,0 +1,37 @@
+.wrapper {
+    border-top: 1px solid #e3e3e4;
+    padding: 20px 0;
+}
+
+.footer_links {
+    margin-left: -4px;
+    display: flex;
+    flex-wrap: wrap;
+
+    & + .footer_links {
+        margin-top: 12px;
+    }
+}
+
+.footer_link {
+    padding: 4px;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--dark-gray-color);
+
+    &:hover {
+        text-decoration: underline;
+        opacity: 0.8;
+    }
+}
+
+.footer_copyright {
+    margin-top: 14px;
+}
+
+.copyright_label {
+    font-size: 1.6rem;
+    color: var(--dark-gray-color);
+    -webkit-user-select: none;
+    user-select: none;
+}

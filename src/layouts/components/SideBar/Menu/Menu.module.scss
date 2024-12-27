@@ -1,0 +1,47 @@
+.side_bar_menu {
+    display: flex;
+    flex-direction: column;
+
+    padding: 20px 0 20px 8px;
+}
+
+.menu_item {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    font-size: 1.8rem;
+    color: var(--black-text);
+    font-weight: 700;
+    border-radius: 4px;
+
+    animation: background-color ease-in-out 300ms;
+
+    &.active {
+        color: var(--primary-color);
+
+        .icon {
+            display: none;
+        }
+
+        .active_icon {
+            display: flex;
+        }
+    }
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+    }
+}
+
+.menu_item_title {
+    margin-left: 10px;
+}
+
+.icon {
+    display: flex;
+}
+
+.active_icon {
+    display: none;
+}

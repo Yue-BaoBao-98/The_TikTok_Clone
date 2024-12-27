@@ -1,0 +1,66 @@
+.wrapper {
+    width: 320px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user_avatar {
+    width: 44px;
+    height: 44px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 0.05px solid #ccc;
+}
+
+.following_btn {
+    padding: 8px 12px;
+}
+
+.body {
+    margin-top: 12px;
+    color: var(--black-text);
+    display: flex;
+    flex-direction: column;
+}
+
+.user_nick_name {
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.check_icon {
+    font-size: 1.2rem;
+    margin-left: 6px;
+    color: var(--round-check-blue-color);
+}
+
+.user_name {
+    font-size: 1.4rem;
+    color: var(--black-text);
+}
+
+.account_value {
+    font-size: 1.6rem;
+    color: var(--black-text);
+    margin-top: 10px;
+}
+
+.followers,
+.likes {
+    color: rgba(22, 24, 35, 0.75);
+}
+
+.likes {
+    margin-left: 20px;
+}
+
+.user_info_number {
+    color: var(--black-text);
+    font-weight: 700;
+}

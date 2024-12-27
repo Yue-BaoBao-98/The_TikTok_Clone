@@ -1,0 +1,151 @@
+.wrapper {
+    --padding-top-from-avatar: 6px;
+    --margin-top-for-video: 10px;
+
+    padding: 30px 0 50px 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.avatar {
+    width: 46px;
+    height: 46px;
+    object-fit: cover;
+    object-position: center;
+    border: 1px solid var(--light-gray-color);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.content {
+    padding: var(--padding-top-from-avatar) 10px 20px;
+    flex: 1;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.names_wrapper,
+.music_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nickname {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--black-text);
+}
+
+.check_icon {
+    font-size: 1.2rem;
+    margin-left: 4px;
+    color: var(--round-check-blue-color);
+}
+
+.full_name {
+    margin-left: 10px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-text);
+    opacity: 0.8;
+}
+
+.status_wrapper {
+    line-height: 1.8;
+}
+
+.status {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--black-text);
+    opacity: 0.8;
+}
+
+.hashtag_wrapper {
+    display: inline-block;
+    margin-left: 6px;
+}
+
+.hashtag_icon {
+    margin-right: 2px;
+    font-size: 1.2rem;
+    color: var(--black-text);
+}
+
+.hashtag {
+    font-size: 1.6rem;
+    color: var(--black-text);
+    font-weight: 600;
+}
+
+.music_icon {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.music_label {
+    margin-left: 8px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--black-text);
+}
+
+.body {
+    margin-top: var(--margin-top-for-video);
+    display: flex;
+    align-items: flex-end;
+}
+
+.video_wrapper {
+    width: 300px;
+}
+
+.actions {
+    margin-left: 20px;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.action_icon,
+.action_icon_active {
+    font-size: 2rem;
+    color: var(--black-text);
+    height: 50px;
+    width: 50px;
+    padding: 12px;
+    background-color: #e5e2e283;
+    border-radius: 50%;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #b3adada6;
+    }
+
+    &:active {
+        color: var(--primary-color);
+    }
+}
+
+.action_icon_active {
+    color: var(--primary-color);
+}
+
+.action_number_label {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: var(--black-text);
+    line-height: 2.4;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.following_btn {
+    margin-top: var(--padding-top-from-avatar);
+    height: 30px;
+}

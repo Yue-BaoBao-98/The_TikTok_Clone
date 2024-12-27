@@ -1,0 +1,105 @@
+.search,
+.search_results {
+    width: 361px;
+}
+
+.search {
+    position: relative;
+    height: var(--search-height);
+    padding-left: 16px;
+    background-color: rgba(22, 24, 35, 0.06);
+    border-radius: var(--search-border-radius);
+    border: 1.5px solid transparent;
+    display: flex;
+
+    input {
+        height: 100%;
+        padding-right: 40px;
+        font-size: 1.6rem;
+        font-family: var(--fonts-family);
+        color: var(--black-text);
+        border: none;
+        background-color: transparent;
+        caret-color: var(--primary-color);
+        outline: none;
+        flex: 1;
+    }
+
+    input:not(:placeholder-shown) ~ .search_btn {
+        color: rgba(22, 24, 35, 0.75);
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 1px;
+        top: var(--search-space);
+        right: var(--search-btn-width);
+        height: calc(var(--search-height) - var(--search-space) * 2);
+        background-color: rgba(22, 24, 35, 0.12);
+    }
+
+    &:focus-within {
+        border-color: rgba(22, 24, 35, 0.2);
+    }
+}
+
+.clear_search_btn,
+.loading_icon {
+    position: absolute;
+    right: calc(var(--search-btn-width) + var(--search-space) * 2);
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(22, 24, 35, 0.34);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.loading_icon {
+    animation: spinner 1.2s linear infinite;
+}
+
+@keyframes spinner {
+    from {
+        opacity: 0.6;
+        transform: translateY(-50%) rotate(0deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%) rotate(360deg);
+    }
+}
+
+.search_btn {
+    width: var(--search-btn-width);
+    height: 100%;
+    font-size: 1.8rem;
+    color: rgba(22, 24, 35, 0.34);
+    border-top-right-radius: var(--search-border-radius);
+    border-bottom-right-radius: var(--search-border-radius);
+
+    &:hover {
+        background-color: rgba(22, 24, 35, 0.03);
+        cursor: pointer;
+    }
+
+    &:active {
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+}
+
+.search_results {
+    // position: absolute;
+    // right: 0;
+}
+
+.search_title {
+    padding: 4px 12px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: rgba(22, 24, 35, 0.5);
+    -webkit-user-select: none;
+    user-select: none;
+}

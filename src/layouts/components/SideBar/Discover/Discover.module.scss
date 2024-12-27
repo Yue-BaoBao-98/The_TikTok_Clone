@@ -1,0 +1,47 @@
+.wrapper {
+    border-top: 1px solid #e3e3e4;
+    padding: 20px 0;
+}
+
+.label {
+    padding: 8px;
+    color: var(--black-text);
+    opacity: 0.6;
+    font-size: 1.4rem;
+    font-weight: 600;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.discover_items {
+    margin-left: 8px;
+}
+
+.discover_item_wrapper {
+    display: inline-block;
+    margin: 6px 4px;
+    padding: 1px 12px;
+    line-height: 1.5;
+    border: 1px solid var(--light-gray-color);
+    border-radius: 999px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: rgba(22, 24, 35, 0.06);
+    }
+}
+
+.discover_item {
+    display: flex;
+    align-items: center;
+}
+
+.discover_icon {
+    margin-right: 6px;
+    color: var(--black-text);
+}
+
+.discover_hashtag {
+    font-size: 1.6rem;
+    color: var(--dark-gray-color);
+}
