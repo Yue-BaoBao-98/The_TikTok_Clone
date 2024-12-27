@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/The_TikTok_Clone/static/css/main.91465fb6.css",
+    "main.js": "/The_TikTok_Clone/static/js/main.51221aaa.js",
+    "static/js/453.8f26082f.chunk.js": "/The_TikTok_Clone/static/js/453.8f26082f.chunk.js",
+    "static/media/video3.mp4": "/The_TikTok_Clone/static/media/video3.3efeb81ead289bbdc424.mp4",
+    "static/media/user_ava.jpg": "/The_TikTok_Clone/static/media/user_ava.ba43aba971ffb8f08bf7.jpg",
+    "static/media/video5.mp4": "/The_TikTok_Clone/static/media/video5.527e179a18b760a1b1ed.mp4",
+    "static/media/video1.mp4": "/The_TikTok_Clone/static/media/video1.8e5e06958f665aef7efb.mp4",
+    "static/media/video6.mp4": "/The_TikTok_Clone/static/media/video6.094fad40e41511c002e9.mp4",
+    "static/media/video2.mp4": "/The_TikTok_Clone/static/media/video2.7ca98f08f965d3355764.mp4",
+    "static/media/video4.mp4": "/The_TikTok_Clone/static/media/video4.0ea92635034eacd690d4.mp4",
+    "static/media/TikTokDisplayFont-Bold.woff2": "/The_TikTok_Clone/static/media/TikTokDisplayFont-Bold.b191c0620e8c9617ea10.woff2",
+    "static/media/TikTokFont-Bold.woff2": "/The_TikTok_Clone/static/media/TikTokFont-Bold.145f211a356fce76072d.woff2",
+    "static/media/TikTokFont-Semibold.woff2": "/The_TikTok_Clone/static/media/TikTokFont-Semibold.0a3262809350126554ad.woff2",
+    "static/media/TikTokFont-Regular.woff2": "/The_TikTok_Clone/static/media/TikTokFont-Regular.0ca75da985ad7821cbde.woff2",
+    "static/media/no_avatar.jpg": "/The_TikTok_Clone/static/media/no_avatar.d6638d1f2fb0f596c2f7.jpg",
+    "static/media/logo.svg": "/The_TikTok_Clone/static/media/logo.87ef64661abbb6a9094b4fef5253baa9.svg",
+    "index.html": "/The_TikTok_Clone/index.html",
+    "main.91465fb6.css.map": "/The_TikTok_Clone/static/css/main.91465fb6.css.map",
+    "main.51221aaa.js.map": "/The_TikTok_Clone/static/js/main.51221aaa.js.map",
+    "453.8f26082f.chunk.js.map": "/The_TikTok_Clone/static/js/453.8f26082f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91465fb6.css",
+    "static/js/main.51221aaa.js"
+  ]
+}
